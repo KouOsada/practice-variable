@@ -64,6 +64,16 @@
 
 // constのスコープ(ローカル：ブロックスコープ) = let参照
 
+// 巻き上げ
+// var str = "webcamp"
+
+// function foo(){
+//   console.log(str)
+//   var str = "dmm webcamp"
+//   console.log(str)
+// }
+// foo()
+
 
 
 
