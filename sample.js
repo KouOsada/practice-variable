@@ -37,3 +37,33 @@
 // console.log(nickname)
 // ※再代入できない
 
+// varのスコープ(ローカル：関数スコープ)
+// var str = "webcamp"  グローバルスコープ
+// function foo(){
+//   console.log(str)
+//   var y = "hello"　　関数スコープ
+// }
+// foo()
+// console.log(y)
+// ※エラーになる
+
+// letのスコープ(ローカル：ブロックスコープ)
+// function foo(){
+//   let x = "webcamp"
+//   {
+//     let y = "hello webcamp"
+//   }
+//   console.log(x)
+//   console.log(y)
+// }
+// foo() ※エラーになる
+// for(let i = 0; i < 10; i++){
+//   console.log(i)
+// }
+// console.log(i)　←ブロック外から参照したのでエラー
+
+// constのスコープ(ローカル：ブロックスコープ) = let参照
+
+
+
+
